@@ -1,3 +1,15 @@
+// change the background color of the box to red
+var docoolstuff = function() {
+	var currentclassname = document.getElementById('cool').className;
+
+if (currentclassname == 'cool') {
+	document.getElementById('cool').className = 'cool red';
+	} else {
+	document.getElementById('cool').className = 'cool';
+	};
+}
+
+
 var car = {
 			make: 'VW',
 			type: 'Polo',
